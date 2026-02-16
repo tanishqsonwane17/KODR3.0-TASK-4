@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  background: #f4f6f9;
+}
+
+.login, .dashboard {
+  text-align: center;
+  padding: 40px;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.navbar {
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+.notifications {
+  width: 250px;
+  background: #111;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.notification-list {
+  margin-top: 10px;
+}
+
+.notification-item {
+  background: #222;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.clear-btn {
+  background: crimson;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.empty {
+  opacity: 0.6;
+}
